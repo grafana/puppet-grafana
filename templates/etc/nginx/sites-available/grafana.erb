@@ -1,0 +1,6 @@
+server {
+    listen <%= @port %>;
+    location / {
+        root /opt/grafana-<%= @version %>;
+    }
+}
